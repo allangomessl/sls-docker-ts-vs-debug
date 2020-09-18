@@ -24,6 +24,7 @@ docker-compose
 ### Running Project
 ```
 npm i
+```
 
 ```
 docker-compose up
@@ -34,12 +35,13 @@ docker-compose up -d
 ```
 in this case, you must `docker-compose logs -f` to check logs
 
+![](https://github.com/allangomessl/sls-docker-ts-vs-debug/blob/master/assets/running.gif?raw=true)
+
 <br /><br />
 
 ### Calling lambda
 
 open http://0.0.0.0:3000/dev/hello
-
 
 <br /><br />
 
@@ -48,7 +50,11 @@ open http://0.0.0.0:3000/dev/hello
 change any .ts file to reload
 ```
 
+![](https://github.com/allangomessl/sls-docker-ts-vs-debug/blob/master/assets/change.gif?raw=true)
+
 <br /><br />
 
 
 ### Debugging
+
+![](https://github.com/allangomessl/sls-docker-ts-vs-debug/blob/master/assets/debug.gif?raw=true)
