@@ -13,7 +13,7 @@ Reload on change
 ```
 
 ### Requirements
-
+---
 ```
 docker
 docker-compose
@@ -22,18 +22,17 @@ docker-compose
 <br /><br />
 
 ### Running Project
+---
 ```
 npm i
-```
-
-```
 docker-compose up
 ```
-
+or
 ```
+npm i
 docker-compose up -d
+docker-compose logs -f    <-- show logs
 ```
-in this case, you must `docker-compose logs -f` to check logs
 
 ![](https://github.com/allangomessl/sls-docker-ts-vs-debug/blob/master/assets/running.gif?raw=true)
 
