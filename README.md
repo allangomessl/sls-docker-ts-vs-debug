@@ -7,6 +7,7 @@ Run and Debug your serverless functions code as you if be runinng on AWS.
 Docker
 Docker Compose
 Local Stack
+Typescript with SourceMaps
 Cache of global vars
 VS Code Debugger
 Reload on change
